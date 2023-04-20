@@ -7,6 +7,7 @@ import { Avatar, Grid } from '@nextui-org/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  //const linkedInIcon = boxicons.icons['linkedin'];
   return (
     <>
       <Head>
@@ -17,10 +18,22 @@ export default function Home() {
       </Head>
       <main>
       <Avatar text="Grad" 
-          color="gradient" 
+          color="error" 
           textColor="white"
-          size= 'xl' />
-
+          size= 'xl' 
+          zoomed/>
+     <a href="https://www.linkedin.com/in/jack-maistros/" target="_blank">
+        <Avatar text="Linkedin" 
+          color="primary" 
+          textColor="error"
+          size='lg' 
+          src="/IMAGES/linkedin-logo.png"
+          zoomed
+          squared
+          bordered
+        />
+      </a>
+      
       </main>
     </>
   )
