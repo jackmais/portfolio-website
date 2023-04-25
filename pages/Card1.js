@@ -7,7 +7,7 @@ const handleVercelClick = () => {
   window.open('https://ja-kstw9r8de-mmaist.vercel.app/', '_blank');
 };
 export const Card1 = () => (
-  <Card css={{ w: "100%", h: "400px" }}>
+  <Card css={{ w: "100%", h: "800px" }}>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
         src="/IMAGES/ARB-SS.png"
@@ -54,5 +54,31 @@ export const Card1 = () => (
         </Col>
       </Row>
     </Card.Footer>
+  </Card>
+);
+
+export const Card11 = () => (
+  <Card css={{ w: "100%", h: "800px" }}>
+    <Card.Header>
+            <Text b>Card Title</Text>
+          </Card.Header>
+          <Card.Divider />
+          <Card.Body css={{ py: "$10" }}>
+            <Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Text>
+          </Card.Body>
+          <Card.Divider />
+          <Card.Footer>
+            <Row justify="flex-end">
+              <Button size="sm" light>
+                Share
+              </Button>
+              <Button size="sm" color="secondary">
+                Learn more
+              </Button>
+            </Row>
+          </Card.Footer>
   </Card>
 );

@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Avatar, Popover, Button, Text,Modal, Grid } from '@nextui-org/react';
 import React from 'react';
-import { Card1 } from './Card1';
+import { Card1, Card11 } from './Card1';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -122,9 +122,12 @@ export default function Home() {
       <Text style={{ color: 'white', fontSize: '48px', textAlign: 'center' }}>
         Jack Maistros
       </Text>
-      <Grid.Container>
-      <Grid xs={12} sm={4}>
+      <Grid.Container gap = {2}>
+      <Grid md = {8}>
         <Card1 />
+      </Grid>
+      <Grid md = {4}>
+        <Card11 />
       </Grid>
       </Grid.Container>
       </main>
