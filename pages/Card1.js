@@ -22,7 +22,7 @@ export const Card1 = () => (
       css={{
         position: "absolute",
         bgBlur: "#ffffff66",
-        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
+        borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.4)",
         bottom: 0,
         zIndex: 1,
       }}
@@ -58,9 +58,11 @@ export const Card1 = () => (
 );
 
 export const Card11 = () => (
-  <Card css={{ w: "100%", h: "800px" }}>
+  <Card css={{ w: "100%", h: "400px" }}>
     <Card.Header>
-            <Text b>Card Title</Text>
+            <Text style={{ color: 'black', fontSize: '48px', textAlign: 'center', fontFamily: "Arial" }}>
+            About
+            </Text>
           </Card.Header>
           <Card.Divider />
           <Card.Body css={{ py: "$10" }}>
@@ -69,16 +71,22 @@ export const Card11 = () => (
               bulk of the card's content.
             </Text>
           </Card.Body>
-          <Card.Divider />
-          <Card.Footer>
-            <Row justify="flex-end">
-              <Button size="sm" light>
-                Share
-              </Button>
-              <Button size="sm" color="secondary">
-                Learn more
-              </Button>
-            </Row>
-          </Card.Footer>
   </Card>
 );
+export const Card111 = () => (
+  <Card css={{ w: "100%", h: "400px" }}>
+    <Card.Header>
+            <Text style={{ color: 'black', fontSize: '48px', textAlign: 'center', fontFamily: "Arial" }}>
+            Tools Used
+            </Text>
+          </Card.Header>
+          <Card.Divider />
+          <Card.Body css={{ py: "$10" }}>
+            <Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Text>
+          </Card.Body>
+  </Card>
+);
+
