@@ -58,7 +58,7 @@ export const Card1 = () => (
 );
 
 export const Card11 = () => (
-  <Card css={{ w: "100%", h: "400px" }}>
+  <Card css={{ w: "100%", h: "300px" }}>
     <Card.Header>
             <Text style={{ color: 'black', fontSize: '48px', textAlign: 'center', fontFamily: "Arial" }}>
             About
@@ -74,7 +74,7 @@ export const Card11 = () => (
   </Card>
 );
 export const Card111 = () => (
-  <Card css={{ w: "100%", h: "400px" }}>
+  <Card css={{ w: "100%", h: "300px" }}>
     <Card.Header>
             <Text style={{ color: 'black', fontSize: '48px', textAlign: 'center', fontFamily: "Arial" }}>
             Tools Used

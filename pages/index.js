@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import { Avatar, Popover, Button, Text,Modal, Grid } from '@nextui-org/react';
+import { Avatar, Popover, Button, Text,Modal, Grid, Card } from '@nextui-org/react';
 import React from 'react';
 import { Card1, Card11, Card111 } from './Card1';
 
@@ -128,6 +128,8 @@ export default function Home() {
       </Grid>
       <Grid xs={12} md={4} direction="column" gap ={2}>
         <Card11 />
+       </Grid>
+       <Grid xs={12} md={4} direction="column" gap ={2}>
         <Card111 />
       </Grid>
       </Grid.Container>
