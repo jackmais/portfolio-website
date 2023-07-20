@@ -68,7 +68,7 @@ export const Card11 = () => (
           <Card.Body css={{ py: "$10" }}>
             <Text>
               Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              bulk of the cards content.
             </Text>
           </Card.Body>
   </Card>

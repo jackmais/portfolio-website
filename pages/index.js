@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Avatar, Popover, Button, Text,Modal, Grid, Card } from '@nextui-org/react';
 import React from 'react';
-import { Card1, Card11, Card111 } from './Card1';
+import { Card1, Card11, Card111 } from '../public/components/Card1';
 
 
 const inter = Inter({ subsets: ['latin'] })
