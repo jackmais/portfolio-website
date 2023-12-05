@@ -83,7 +83,7 @@ export const Card111 = () => (
           <Card.Divider />
           <Card.Body css={{ py: "$10" }}>
             <Text>
-              Simple sports betting odds viewer.
+              Jack Maistros
             </Text>
           </Card.Body>
   </Card>

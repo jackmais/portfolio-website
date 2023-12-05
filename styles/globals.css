@@ -87,15 +87,10 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: black; /* Set the background color to black */
 }
 a {
-  color: inherit;
+  color: black;
   text-decoration: none;
 }
 Text {

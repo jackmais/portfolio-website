@@ -28,7 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <Grid.Container gap ={1.5} justify="right">
+      <Grid.Container gap ={1.7} justify="left" alignItems="start">
         <Grid>
         <Avatar text="profile-avatar" 
             color="error" 
